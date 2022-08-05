@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root{
+    --font-color : white;
+    --btn-background : black;
+    --background : white;
+}
+.dark-mode {
+    background-color:black;
+    --font-color : black;
+    --btn-background : white;
+    --background : black;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--background);
+}
+#button{
+    color: var(--font-color);
+    font-family: sans-serif;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--btn-background);
+    border-radius: 16px;
+    overflow: hidden;
+    padding: 16px;
+    text-align: center;
+    width: 136px;
+    height: 64px;
+}
